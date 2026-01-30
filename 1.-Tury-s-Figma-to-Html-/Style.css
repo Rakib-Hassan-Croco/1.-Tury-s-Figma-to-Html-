@@ -1,0 +1,353 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   font-family: "Open Sans", sans-serif;
+}
+body{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+nav{
+   position: absolute;
+   top: 0;
+   width: 100%;
+    
+}
+.container{
+    width :1320px;
+    margin:auto;
+    margin-top:30px ;
+}
+/* Common Css */
+/* Navbar Css start*/
+.navbar{
+display: flex;
+justify-content: space-between;
+}
+.navbar ul{
+display: flex;
+ gap: 60px ;
+}
+.navbar ul li a{
+   color: white;
+}
+.navbar ul li a:hover{
+   color: rgb(15, 0, 0);
+}
+/* Navbar Css end*/
+/* banner part Start */
+#banner1{
+    background-image: url("images/Rectangle\ 1\ 1.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    padding: 318PX 0PX 440PX 0PX;
+    background-position: center;
+}
+.banner-content p{
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffc178;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+.banner-content h1{
+    font-size: 88px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-weight: 300;
+}
+.banner-content h1 span{
+    display: block;  
+    font-size: 96px !important;
+    font-weight: bold !important;
+    
+}
+/* banner part End  */
+/* banner2 start */
+#holiday-part{
+    margin-top: 121px;
+}
+.holiday{
+   display: flex;
+   gap: 139px;
+}
+.holiday2{
+    margin-top: 78.23px;
+    color: #FBD784;
+    font-size: 18px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+
+}
+.holiday div h2{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 64px;
+    text-transform: uppercase;
+    margin-top: 13.41px;
+    
+}
+.holiday3{
+    color: #ffffff;
+    font-weight: semi-bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 13.04px;
+    
+}
+.holiday4{
+    margin-top:66.19px ;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FBD784;
+
+}
+/* banner 2 end */
+/* bromo start */
+
+.bromo{
+    margin-top: 324.06px;
+    background-image: url("images/image\ 4.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    width: 1320px;
+    height: 967.77px;
+    background-position: center;
+}
+.bromo1{
+    padding: 560.65px 614px 0 612px;
+    color: #FBD784;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+.bromo2{
+    color:white;
+    font-weight: bold;
+    font-size: 64px;
+    letter-spacing:0% ;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 13.34px;
+}
+.bromo3{
+    color:white;
+    font-size: 15px;
+    letter-spacing:0% ;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 13.34px;
+}
+.bromo4{
+    color: #FBD784;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 26.08px;
+}
+/* Bromo End */
+/* explore start */
+#Explore{
+    margin-top: 260.61px;
+}
+.explore{
+    height: 402px;
+    width: 1320px;
+    gap: 132px;
+    display: flex;
+}
+.explore1{
+    background-image: url("images/Image5.png");
+    height:402px;
+    width: 350px;
+}
+.explore2{
+    background-image: url("images/Rectangle\ 6.png");
+    height:402px;
+    width: 350px;
+    opacity: 70%;
+}
+.explore3{
+    background-image: url("images/image7.png");
+    height:402px;
+    width: 350px;
+}
+.explore2A{
+    color:#FFC178;
+    font-size: 18px;
+    letter-spacing:7px ;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 162px ;
+    font-weight: bold;
+}
+.explore2B{
+    color:white;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 39px;
+    opacity: 100%;
+}
+.explore2C{
+    color:#FFA343;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 39px;
+    font-weight: bold;
+}
+.explore2C a{
+    color:#FFA343;}
+/*explore end */
+/* culture part start */
+#Culture
+{
+    margin-top: 260.64px;
+}
+.culture {
+    gap: 37px; 
+    display: flex; 
+    height:801.36px;
+    width:1320px;
+    
+}
+.culture1A{
+    color: #FBD784;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 153.45px;
+    letter-spacing: 6px;
+}
+.culture1B{
+    color: white;
+    font-weight: bold;
+    font-size: 64px;
+    text-align: left;
+    margin-top: 19.06px;
+    text-transform: uppercase;
+}
+.culture1C{
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 19.06px;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.culture1D{
+    color: #FBD784;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 47.14px;
+    text-transform: uppercase;
+    font-weight: Bold;
+}
+.culture-image{
+    background-image: url("images/image8.jpg");
+    width: 624px;
+    height:801.36px;
+    
+}
+/* culture part end */
+/* final part start */
+#footer{
+    margin-top: 260.27px;
+}
+.footerH{
+    height: 72px;
+    display:flex;
+}
+.footerH1{
+    text-transform: capitalize;
+    color: white;
+    justify-content: flex-end;
+    margin-left: 651.56px;
+    font-weight: 22px;
+    margin-right: 26.13px;
+}
+.footerH2{
+    text-align: right;
+    color: black;
+    text-transform: capitalize;
+    width: 233.19px;
+    height: 63.13px;
+    background-color: #FFA343;
+    text-align: center; 
+    border-radius: 12px; 
+    margin-top: -20px;
+    font-weight: bold ;
+    font-size: 17px;
+
+}
+.footerB{
+    display:flex !important;
+}
+.footerB11{
+    text-transform: capitalize;
+    font-size: 36px;
+    color:white;
+    font-weight: bold;
+    margin-top: 101.48px;
+}
+.footerB2 ul{
+    color:white;
+    margin-left: 276.42px;
+    margin-top: 91.81px;
+    font-size: 19px;
+    line-height: 33.26px;
+}
+.footerB3 ul{
+    color:white;
+    margin-left: 84.43px;
+    margin-top: 91.81px;
+    font-size: 19px;
+    line-height: 33.26px;
+}
+.footerB4 ul{
+    color:white;
+    margin-left: 84.43px;
+    margin-top: 91.81px;
+    font-size: 19px;
+    line-height: 33.26px;
+}
+.Bold{
+    color:#FFD1A0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footerlast{
+    display:flex;
+    margin-top:110.73px;
+}
+.footerlast img{
+    width: 117.01px;
+    height: 17.35px;
+  
+}
+.footerlast2{
+    margin-left: 1024.98px;
+    font-size: 15px;
+    color: white;  
+}
+.final{
+    font-weight: mixed;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-top: 160px;
+    margin-bottom: 85px;
+    text-align: center;
+}
+/* final part end */
